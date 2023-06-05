@@ -20,9 +20,9 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Group>
           <Stack.Screen name="Home" component={Home} options={{ title: "Home" }} />
-          <Stack.Screen name="Details" component={Details} options={{ title: "Details" }} />
         </Stack.Group>
         <Stack.Group screenOptions={{ presentation: 'modal' }}>
+          <Stack.Screen name="Details" component={Details} options={{ title: "Details" }} />
           <Stack.Screen name="Add" component={Add} options={{ title: "Add" }} />
         </Stack.Group>
       </Stack.Navigator>
